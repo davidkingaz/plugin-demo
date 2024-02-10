@@ -1,0 +1,174 @@
+netbox-docker-redis-cache-1  | 1:C 04 Feb 2024 20:19:52.599 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+netbox-docker-redis-cache-1  | 1:C 04 Feb 2024 20:19:52.599 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+netbox-docker-redis-cache-1  | 1:C 04 Feb 2024 20:19:52.599 * Configuration loaded
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.599 * monotonic clock: POSIX clock_gettime
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * Running mode=standalone, port=6379.
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * Server initialized
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * Loading RDB produced by version 7.2.4
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * RDB age 2816 seconds
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * RDB memory usage when created 0.95 Mb
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * Done loading RDB, keys loaded: 0, keys expired: 0.
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * DB loaded from disk: 0.000 seconds
+netbox-docker-redis-cache-1  | 1:M 04 Feb 2024 20:19:52.600 * Ready to accept connections tcp
+netbox-docker-netbox-worker-1  | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-worker-1  | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-worker-1  | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-worker-1  | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-worker-1  | No queues have been specified. This process will service the following queues by default: high, default, low
+netbox-docker-netbox-worker-1  | 20:23:58 Worker rq:worker:16a9528426a64c6f84427100c3a7478a started with PID 7, version 1.15.1
+netbox-docker-netbox-worker-1  | 20:23:58 Subscribing to channel rq:pubsub:16a9528426a64c6f84427100c3a7478a
+netbox-docker-netbox-worker-1  | 20:23:58 *** Listening on high, default, low...
+netbox-docker-netbox-worker-1  | 20:23:58 Cleaning registries for queue: high
+netbox-docker-netbox-worker-1  | 20:23:58 Scheduler for low, high, default started with PID 9
+netbox-docker-netbox-worker-1  | 20:23:58 Cleaning registries for queue: default
+netbox-docker-netbox-worker-1  | 20:23:58 Cleaning registries for queue: low
+netbox-docker-netbox-housekeeping-1  | Interval set to 86400 seconds
+netbox-docker-netbox-housekeeping-1  | Sun Feb  4 20:23:56 UTC 2024
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-housekeeping-1  | [*] Clearing expired authentication sessions
+netbox-docker-netbox-housekeeping-1  | 	Sessions cleared.
+netbox-docker-netbox-housekeeping-1  | [*] Checking for expired changelog records
+netbox-docker-netbox-housekeeping-1  | 	No expired records found.
+netbox-docker-netbox-housekeeping-1  | [*] Checking for expired jobs
+netbox-docker-netbox-housekeeping-1  | 	No expired records found.
+netbox-docker-netbox-housekeeping-1  | [*] Checking for latest release
+netbox-docker-netbox-housekeeping-1  | 	Request error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/netbox-community/netbox/releases (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff79080b50>: Failed to resolve 'api.github.com' ([Errno -2] Name or service not known)"))
+netbox-docker-netbox-housekeeping-1  | Finished.
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (0s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (3s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (6s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (9s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (12s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-redis-1                | 1:C 04 Feb 2024 20:19:52.585 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+netbox-docker-postgres-1             | 
+netbox-docker-postgres-1             | PostgreSQL Database directory appears to contain a database; Skipping initialization
+netbox-docker-postgres-1             | 
+netbox-docker-redis-1                | 1:C 04 Feb 2024 20:19:52.585 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+netbox-docker-postgres-1             | 2024-02-04 20:19:52.542 UTC [1] LOG:  starting PostgreSQL 15.5 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 13.2.1_git20231014) 13.2.1 20231014, 64-bit
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (15s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (18s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (21s / 30s)
+netbox-docker-redis-1                | 1:C 04 Feb 2024 20:19:52.585 * Configuration loaded
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.585 * monotonic clock: POSIX clock_gettime
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (24s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (27s / 30s)
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.586 * Running mode=standalone, port=6379.
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.586 * Server initialized
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * Reading RDB base file on AOF loading...
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * Loading RDB produced by version 7.2.4
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * RDB age 3294 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * RDB memory usage when created 0.86 Mb
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * RDB is base AOF
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * Done loading RDB, keys loaded: 0, keys expired: 0.
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.587 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.589 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.002 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.589 * DB loaded from append only file: 0.003 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.589 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:19:52.589 * Ready to accept connections tcp
+netbox-docker-postgres-1             | 2024-02-04 20:19:52.542 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+netbox-docker-postgres-1             | 2024-02-04 20:19:52.542 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+netbox-docker-postgres-1             | 2024-02-04 20:19:52.543 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+netbox-docker-postgres-1             | 2024-02-04 20:19:52.547 UTC [24] LOG:  database system was shut down at 2024-02-04 19:32:56 UTC
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:24:53.011 * 100 changes in 300 seconds. Saving...
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:24:53.013 * Background saving started by pid 15
+netbox-docker-redis-1                | 15:C 04 Feb 2024 20:24:53.025 * DB saved on disk
+netbox-docker-redis-1                | 15:C 04 Feb 2024 20:24:53.026 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:24:53.115 * Background saving terminated with success
+netbox-docker-postgres-1             | 2024-02-04 20:19:52.555 UTC [1] LOG:  database system is ready to accept connections
+netbox-docker-postgres-1             | 2024-02-04 20:24:52.606 UTC [22] LOG:  checkpoint starting: time
+netbox-docker-postgres-1             | 2024-02-04 20:24:52.628 UTC [22] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.002 s, total=0.022 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+netbox-docker-netbox-1               | ❌ Waited 30s or more for the DB to become ready.
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (0s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (3s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (6s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (9s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (12s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (15s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (18s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (21s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (24s / 30s)
+netbox-docker-netbox-1               | django.core.exceptions.ImproperlyConfigured: Unable to import plugin wwt_netbox_plugin: Module not found. Check that the plugin module has been installed within the correct Python environment.
+netbox-docker-netbox-1               | [ Use DB_WAIT_DEBUG=1 in netbox.env to print full traceback for errors here ]
+netbox-docker-netbox-1               | ⏳ Waiting on DB... (27s / 30s)
+netbox-docker-netbox-1               | ❌ Waited 30s or more for the DB to become ready.
+netbox-docker-netbox-1               | ↩️ Skip creating the superuser
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-1               | ✅ Initialisation is done.
+netbox-docker-netbox-1               | ⏳ Waiting for control socket to be created... (1/10)
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [warn] 7#7 Unit is running unprivileged, then it cannot use arbitrary user and group.
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [info] 7#7 unit 1.31.1 started
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [info] 13#13 discovery started
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [notice] 13#13 module: python 3.11.4 "/usr/lib/unit/modules/python3.11.unit.so"
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [info] 7#7 controller started
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [notice] 7#7 process 13 exited with code 0
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [info] 15#15 router started
+netbox-docker-netbox-1               | 2024/02/04 20:23:45 [info] 15#15 OpenSSL 3.0.8 7 Feb 2023, 30000080
+netbox-docker-netbox-1               | ⚙️ Applying configuration from /etc/unit/nginx-unit.json
+netbox-docker-netbox-1               | 2024/02/04 20:23:46 [info] 18#18 "netbox" prototype started
+netbox-docker-netbox-1               | 2024/02/04 20:23:46 [info] 19#19 "netbox" application started
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-1               | ✅ Unit configuration loaded successfully
+netbox-docker-netbox-1               | 2024/02/04 20:23:47 [notice] 7#7 process 11 exited with code 0
+netbox-docker-netbox-1               | 2024/02/04 20:23:54 [info] 32#32 "netbox" application started
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:23:56 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:24:11 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:24:26 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:24:41 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:24:56 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:25:11 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:25:26 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:25:43 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:25:58 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:26:13 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:26:28 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"

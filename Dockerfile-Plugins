@@ -1,0 +1,17 @@
+FROM netboxcommunity/netbox:latest
+
+# Set environment variables
+ENV VIRTUAL_ENV=/opt/venv
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
+# Make sure we use the virtualenv
+WORKDIR /opt/netbox/netbox
+
+# Copy your plugin directory into the image
+COPY wwt_plugin /opt/netbox/netbox/wwt_plugin
+
+# Install your plugin
+RUN pip install --upgrade pip && \
+    pip install /opt/netbox/netbox/wwt_plugin
+
+RUN SECRET_KEY="dummydummydummydummydummydummydummydummydummydummy" /opt/netbox/venv/bin/python /opt/netbox/netbox/manage.py collectstatic --no-input

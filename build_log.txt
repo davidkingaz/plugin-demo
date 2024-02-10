@@ -1,0 +1,27 @@
+#1 [netbox internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [netbox internal] load build definition from Dockerfile-Plugins
+#2 transferring dockerfile: 729B done
+#2 DONE 0.0s
+
+#3 [netbox internal] load metadata for docker.io/netboxcommunity/netbox:latest
+#3 DONE 0.0s
+
+#4 [netbox 1/4] FROM docker.io/netboxcommunity/netbox:latest
+#4 CACHED
+
+#5 [netbox internal] load build context
+#5 transferring context: 5.40kB done
+#5 DONE 0.0s
+
+#6 [netbox 2/4] COPY wwt_plugin/ /opt/netbox/wwt_plugin/
+#6 DONE 0.0s
+
+#7 [netbox 3/4] RUN /opt/netbox/venv/bin/pip install  --no-warn-script-location -r /opt/netbox/wwt_plugin/python3 setup.py develop
+#7 0.282 ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/opt/netbox/wwt_plugin/python3'
+#7 0.375 
+#7 0.375 [notice] A new release of pip is available: 23.3.2 -> 24.0
+#7 0.375 [notice] To update, run: pip install --upgrade pip
+#7 ERROR: process "/bin/sh -c /opt/netbox/venv/bin/pip install  --no-warn-script-location -r /opt/netbox/wwt_plugin/python3 setup.py develop" did not complete successfully: exit code: 1

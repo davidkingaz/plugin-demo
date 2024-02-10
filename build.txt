@@ -1,0 +1,93 @@
+Attaching to netbox-docker-netbox-1, netbox-docker-netbox-housekeeping-1, netbox-docker-netbox-worker-1, netbox-docker-postgres-1, netbox-docker-redis-1, netbox-docker-redis-cache-1
+netbox-docker-redis-1                | 1:C 04 Feb 2024 20:32:30.475 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+netbox-docker-redis-1                | 1:C 04 Feb 2024 20:32:30.475 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+netbox-docker-redis-1                | 1:C 04 Feb 2024 20:32:30.475 * Configuration loaded
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.476 * monotonic clock: POSIX clock_gettime
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.476 * Running mode=standalone, port=6379.
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * Server initialized
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * Reading RDB base file on AOF loading...
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * Loading RDB produced by version 7.2.4
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * RDB age 4052 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * RDB memory usage when created 0.86 Mb
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * RDB is base AOF
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * Done loading RDB, keys loaded: 0, keys expired: 0.
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.477 * DB loaded from base file appendonly.aof.1.base.rdb: 0.000 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.482 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.005 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.482 * DB loaded from append only file: 0.006 seconds
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.482 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+netbox-docker-redis-1                | 1:M 04 Feb 2024 20:32:30.482 * Ready to accept connections tcp
+netbox-docker-redis-cache-1          | 1:C 04 Feb 2024 20:32:30.586 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+netbox-docker-redis-cache-1          | 1:C 04 Feb 2024 20:32:30.586 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+netbox-docker-redis-cache-1          | 1:C 04 Feb 2024 20:32:30.586 * Configuration loaded
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.586 * monotonic clock: POSIX clock_gettime
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * Running mode=standalone, port=6379.
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * Server initialized
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * Loading RDB produced by version 7.2.4
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * RDB age 139 seconds
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * RDB memory usage when created 0.95 Mb
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * Done loading RDB, keys loaded: 0, keys expired: 0.
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * DB loaded from disk: 0.000 seconds
+netbox-docker-redis-cache-1          | 1:M 04 Feb 2024 20:32:30.587 * Ready to accept connections tcp
+netbox-docker-postgres-1             | 
+netbox-docker-postgres-1             | PostgreSQL Database directory appears to contain a database; Skipping initialization
+netbox-docker-postgres-1             | 
+netbox-docker-netbox-1               | ↩️ Skip creating the superuser
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-1               | ✅ Initialisation is done.
+netbox-docker-netbox-1               | ⏳ Waiting for control socket to be created... (1/10)
+netbox-docker-netbox-1               | 2024/02/04 20:32:36 [info] 13#13 discovery started
+netbox-docker-netbox-1               | 2024/02/04 20:32:36 [notice] 13#13 module: python 3.11.4 "/usr/lib/unit/modules/python3.11.unit.so"
+netbox-docker-netbox-1               | 2024/02/04 20:32:36 [info] 7#7 controller started
+netbox-docker-netbox-1               | 2024/02/04 20:32:36 [notice] 7#7 process 13 exited with code 0
+netbox-docker-netbox-1               | 2024/02/04 20:32:36 [info] 15#15 router started
+netbox-docker-netbox-1               | 2024/02/04 20:32:36 [info] 15#15 OpenSSL 3.0.8 7 Feb 2023, 30000080
+netbox-docker-netbox-1               | ⚙️ Applying configuration from /etc/unit/nginx-unit.json
+netbox-docker-netbox-1               | 2024/02/04 20:32:37 [info] 18#18 "netbox" prototype started
+netbox-docker-netbox-1               | 2024/02/04 20:32:37 [info] 19#19 "netbox" application started
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-1               | ✅ Unit configuration loaded successfully
+netbox-docker-netbox-1               | 2024/02/04 20:32:38 [notice] 7#7 process 11 exited with code 0
+netbox-docker-netbox-1               | 2024/02/04 20:32:45 [info] 32#32 "netbox" application started
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-1               | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:32:47 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-housekeeping-1  | Interval set to 86400 seconds
+netbox-docker-netbox-housekeeping-1  | Sun Feb  4 20:32:48 UTC 2024
+netbox-docker-netbox-worker-1        | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-worker-1        | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-worker-1        | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-worker-1        | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/configuration.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/extra.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/logging.py'
+netbox-docker-netbox-housekeeping-1  | 🧬 loaded config '/etc/netbox/config/plugins.py'
+netbox-docker-netbox-worker-1        | 20:32:50 Worker rq:worker:ac2ade16e9764dd7972a0746b5668884 started with PID 7, version 1.15.1
+netbox-docker-netbox-worker-1        | 20:32:50 Subscribing to channel rq:pubsub:ac2ade16e9764dd7972a0746b5668884
+netbox-docker-netbox-worker-1        | 20:32:50 *** Listening on high, default, low...
+netbox-docker-netbox-worker-1        | 20:32:50 Scheduler for default, low, high started with PID 9
+netbox-docker-netbox-housekeeping-1  | [*] Clearing expired authentication sessions
+netbox-docker-netbox-housekeeping-1  | 	Sessions cleared.
+netbox-docker-netbox-housekeeping-1  | [*] Checking for expired changelog records
+netbox-docker-netbox-housekeeping-1  | 	No expired records found.
+netbox-docker-netbox-housekeeping-1  | [*] Checking for expired jobs
+netbox-docker-netbox-housekeeping-1  | 	No expired records found.
+netbox-docker-netbox-housekeeping-1  | [*] Checking for latest release
+netbox-docker-netbox-housekeeping-1  | 	Request error: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/netbox-community/netbox/releases (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0xffff76d32f10>: Failed to resolve 'api.github.com' ([Errno -2] Name or service not known)"))
+netbox-docker-netbox-housekeeping-1  | Finished.
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:33:02 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:33:17 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:33:32 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:33:48 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:34:03 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 172.20.0.1 - - [04/Feb/2024:20:34:15 +0000] "GET / HTTP/1.1" 200 111822 "http://127.0.0.1:8000/login/?next=/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+netbox-docker-netbox-1               | 172.20.0.1 - - [04/Feb/2024:20:34:15 +0000] "GET /extras/changelog/?per_page=25 HTTP/1.1" 200 2657 "http://127.0.0.1:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+netbox-docker-netbox-1               | 127.0.0.1 - - [04/Feb/2024:20:34:18 +0000] "GET /api/ HTTP/1.1" 200 549 "-" "curl/7.88.1"
+netbox-docker-netbox-1               | 172.20.0.1 - - [04/Feb/2024:20:34:20 +0000] "GET /dcim/devices/ HTTP/1.1" 200 128258 "http://127.0.0.1:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
